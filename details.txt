@@ -1,0 +1,31 @@
+
+
+import java.lang.Math; 
+
+
+public class HelloWorld
+{
+       int rollno;
+       String name;
+       String country;
+       int marks;
+  void Student1(){
+    System.out.println("The Details Are "+"  "+rollno+" "+name+"  "+country+" "+marks);
+}
+public HelloWorld(int rollno,String name,String country,int marks){
+      this.rollno=rollno;
+      this.name=name;
+      this.country=country;
+       this.marks=marks;
+     
+}
+public static void main(String args[]){
+HelloWorld det = new HelloWorld(21,"balaji","india",75);
+HelloWorld det1= new HelloWorld(22,"Vasanth","India",70);
+HelloWorld con = new HelloWorld(23,"john","usa",52);
+  det1.Student1();
+  det.Student1();
+  con.Student1();
+}
+}
+  
